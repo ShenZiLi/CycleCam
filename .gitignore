@@ -1,0 +1,55 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Android Studio
+.navigation/
+captures/
+*.apk
+*.ap_
+*.aab
+
+# Local config
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Kotlin
+*.kotlin_module
+
+# Keystore (never commit)
+*.jks
+*.keystore
+
+# Secrets
+secrets.properties
+
+# Generated
+*.class
+*.jar
+*.war
+*.ear
+
+# Testing
+coverage/
+*.jacoco.exec
+
+# Build outputs
+app/release/
+app/debug/
+*.dex
